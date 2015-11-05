@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mappings
 {
-    class Repository
+    public class Repository
     {
 
         int[] _space;
