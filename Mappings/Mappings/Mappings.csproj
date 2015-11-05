@@ -50,6 +50,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Projections\AllUnitProjection.cs" />
     <Compile Include="Projections\SpaceOccupiedProjection.cs" />
+    <Compile Include="Projections\ThreatenedProjection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository.cs" />
     <Compile Include="UnitAdditionHandler.cs" />
