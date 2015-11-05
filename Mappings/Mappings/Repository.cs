@@ -21,7 +21,7 @@ namespace Mappings
         public bool add_item(int pos, int value, bool overWrite)
         {
             if (pos < 0) throw new ArgumentOutOfRangeException("pos", "position needs to be positive");
-            if (pos < _length) throw new ArgumentOutOfRangeException("pos", "position needs to be less than " + _length.ToString());
+            if (pos > _length) throw new ArgumentOutOfRangeException("pos", "position needs to be less than " + _length.ToString());
             if (overWrite || _space[pos] == 0)
             {
                 _space[pos] = value;
