@@ -10,10 +10,10 @@ namespace Mappings
     {
     }
 
-    public class ObjectCreationMessage
+    public class ObjectCreationMessage : Message
     {
-        int pos { get; set; }
-        int value { get; set; }
+        public int pos { get; set; }
+        public int value { get; set; }
     }
 
 }

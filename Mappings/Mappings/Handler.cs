@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace Mappings
 {
-    class Program
+    public interface IHandler
     {
-        static void Main(string[] args)
-        {
-            ObjectCreationMessage message = 
-
-        }
+        bool can_handle(Message message);
+        bool handle(Message message);
     }
 }
