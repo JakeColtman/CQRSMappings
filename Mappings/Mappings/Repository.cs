@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Mappings
 {
-    public class Repository
+    public class Repository : IRepositoryReader
     {
 
         int[] _space;
@@ -35,5 +35,9 @@ namespace Mappings
             
         }
 
+        public int[] get_data()
+        {
+            return _space;
+        }
     }
 }
